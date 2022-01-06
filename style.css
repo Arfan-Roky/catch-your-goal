@@ -17,7 +17,6 @@ body {
 /* hero section */
 .hero {
   width: 40%;
-  /* margin: 0 6rem; */
 }
 
 .hero-heading {
@@ -41,28 +40,24 @@ body {
 }
 
 .hero-description {
-  font-size: 20px;
+  font-size: 18px;
   text-transform: capitalize;
   color: #000000cc;
   margin-bottom: 30px;
   text-align: justify;
 }
 
-.docs-btn {
+.info-btn {
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 10px 20px;
   background: linear-gradient(90deg, #00ffbf, #ff4d4d);
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 18px;
+  font-weight: 700;
   color: white;
   border-radius: 4px;
 }
 
 /* card section */
-.card {
-  
-}
-
 .card-container {
   display: flex;
   justify-content: space-between;
@@ -75,6 +70,7 @@ body {
   text-align: center;
   font-size: 40px;
   color: #000000cc;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -103,4 +99,24 @@ body {
 
 .goal-card{
     background:   rgb(131, 128, 96, .3);
+}
+
+/* develop section */
+.dev-info{
+    margin-top: -40px;
+}
+.coding-img{
+    width: 100%;
+}
+
+.dev-heading{
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.dev-description{
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
 }
