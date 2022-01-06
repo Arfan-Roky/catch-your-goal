@@ -103,3 +103,68 @@ body {
   background: rgb(131, 128, 96, 0.3);
 }
 /*  end of card section */
+
+
+/*  roadmap section */
+.roadmap-container{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.full-width{
+    width: 100%;
+    height: 60%;
+    border-left: 5px solid;
+    border-image: linear-gradient(#00ffbf, #ff4d4d);
+     border-image-slice: 1;
+     padding: 16px 20px;
+}
+
+.small-img{
+    width: 70%;
+}
+
+nav{
+    width: 200px;
+    padding: 10px;
+    border-top-left-radius: 100px ;
+}
+
+nav ol li{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+.medium-heading{
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #000000cc;
+}
+
+.border{
+    background: black;
+    color: white;
+    padding: 6px 10px;
+    display: block;
+    width: 260px;
+}
+
+.border-bottom{
+    display: block;
+    width: 200px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 8px;
+    color: #ff4d4d;
+}
+
+h5{
+    margin-top: -10px;
+    display: inline-block;
+    border: 1px solid #00ffbf;
+    padding: 6px 16px;
+}
