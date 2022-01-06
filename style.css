@@ -1,7 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 /*  flexible and similar code  */
@@ -28,6 +28,7 @@ body {
 .description {
   line-height: 1.6;
   text-align: justify;
+  font-weight: 300;
 }
 
 .info-btn {
@@ -49,7 +50,7 @@ body {
 
 /* hero section */
 .hero-heading {
-  font-size: 60px;
+  font-size: 55px;
   color: #000000cc;
   border-left: 5px solid;
   border-image: linear-gradient(#00ffbf, #ff4d4d);
@@ -60,6 +61,7 @@ body {
 .red-color {
   color: #ff4d4d;
 }
+
 
 /* card section */
 .card-container {
@@ -92,6 +94,7 @@ body {
   font-size: 15px;
 }
 
+
 /* card background */
 .mission-card {
   background: rgba(15, 238, 52, 0.3);
@@ -106,65 +109,82 @@ body {
 
 
 /*  roadmap section */
-.roadmap-container{
-    width: 80%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+.roadmap-container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
-.full-width{
-    width: 100%;
-    height: 60%;
-    border-left: 5px solid;
-    border-image: linear-gradient(#00ffbf, #ff4d4d);
-     border-image-slice: 1;
-     padding: 16px 20px;
-}
-
-.small-img{
-    width: 70%;
+.full-width {
+  width: 100%;
+  height: 60%;
+  border-left: 5px solid;
+  border-image: linear-gradient(#00ffbf, #ff4d4d);
+  border-image-slice: 1;
+  padding: 16px 20px;
 }
 
-nav{
-    width: 200px;
-    padding: 10px;
-    border-top-left-radius: 100px ;
+.small-img {
+  width: 70%;
 }
 
-nav ol li{
-    font-size: 14px;
-    margin-bottom: 10px;
-    color: gray;
-    border-bottom: 2px solid gray;
+nav {
+  width: 200px;
+  padding: 10px;
+  border-top-left-radius: 100px;
 }
 
-.medium-heading{
-    font-size: 30px;
-    text-transform: capitalize;
-    color: #000000cc;
+nav ol li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: gray;
+  border-bottom: 2px solid gray;
 }
 
-.border{
-    background: black;
-    color: white;
-    padding: 6px 10px;
-    display: block;
-    width: 260px;
+.medium-heading {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #000000cc;
 }
 
-.border-bottom{
-    display: block;
-    width: 200px;
-    border-bottom: 2px solid gray;
-    margin-bottom: 8px;
-    color: #ff4d4d;
+.border {
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  display: block;
+  width: 260px;
 }
 
-h5{
-    margin-top: -10px;
-    display: inline-block;
-    border: 1px solid #00ffbf;
-    padding: 6px 16px;
+.border-bottom {
+  display: block;
+  width: 200px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 8px;
+  color: #ff4d4d;
+}
+
+h5 {
+  letter-spacing: 2px;
+  text-transform: capitalize;
+  margin-top: -10px;
+  display: inline-block;
+  border: 1px solid #00ffbf;
+  padding: 6px 16px;
+  color: #000000cc;
+}
+
+
+/*  footer here */
+footer {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.footer-description {
+    font-weight: 200;
+    padding-bottom: 16px;
 }
